@@ -1,0 +1,117 @@
+/* Put any additional CSS here */
+body {background-color: #8578c5;}
+
+* {
+  font-family: Rockwell, “Courier Bold”, Courier, Georgia, Times, “Times New Roman”, serif;
+  color: #fff;
+}
+
+#explanation {
+  color: #fff;
+  font-weight: 2000;
+  font-size: 27px;
+}
+
+#customizeTitle, #viewtitle {
+  font-size:  16px;
+  font-style: italic;
+}
+
+#timespent {
+  color: black;
+}
+
+h1 {
+  text-align: left;
+  color: #fff;
+  margin: 1em 0 0.5em 0;
+  font-weight: 2000;
+  font-size: 58px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+table, th, td {
+    border-style: solid;
+    border-color: #474747;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+}
+
+table{margin-left: auto;
+        margin-right: auto;}
+
+canvas{position: fixed;
+        top: 330px;
+        right: 490px;
+        text-align: center;
+        display: inline;}
+
+button {
+  font-size: 13px;
+  color: #8578c5;
+  padding: 3px;
+  
+  display:inline-block;
+  width: 75px;
+  border: 1px solid;
+  border-radius: 21px;
+  background-color: #fff;
+    
+}
+button:hover {
+  background-color: #e6e6e6;
+}
+button:active {
+  background-color: #b2b2b2;
+}
+
+.labelDiv {
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 10px;
+}
+#buttondiv, #datediv, #dategoeshere{
+  text-align: center;
+}
+#xAxisLabel {
+  color: #333;
+  margin: auto;
+  width: 200px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.fieldDiv {
+  margin: 0 auto;
+  width: 450px;
+}
+
+ul#tabs {
+    text-align: center;
+}
+ul#tabs li {
+    width: 200px;
+    display: inline-block;
+    background-color: #8578c5;
+    cursor: pointer;
+}
+#in {
+  color: #fff;
+}
+#an {
+  color: #fff;
+}
+ul#tabs li a:hover {
+    color: #8578c5;
+}
+
+ul#tabs li a:visited{
+  color: #333;
+}
